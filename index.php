@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
-<html lang="da">
+<html class="h-100" lang="da">
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
@@ -26,9 +26,14 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body>
+<body class="h-100">
 <?php include "includes/nav.php"; ?>
 
+<header>
+    <div class="video">
+
+    </div>
+</header>
 
 
 
@@ -39,6 +44,8 @@
 
 
 <?php include "includes/footer.php"; ?>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
