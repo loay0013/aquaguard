@@ -3,8 +3,8 @@ require "settings/init.php";
 if(!empty($_POST["data"])) {
     $data = $_POST["data"];
     $file = $_FILES;
-    if (!empty($file["Img"]["tmp_name"])) {
-        move_uploaded_file($file["Img"]["tmp_name"], "uplods/" . basename($file["Img"]["name"]));
+    if (!empty($file["prodImg"]["tmp_name"])) {
+        move_uploaded_file($file["prodImg"]["tmp_name"], "uploads/" . basename($file["prodImg"]["name"]));
     }
 
     $sql = "INSERT INTO produkter (prodNavn, prodPris, prodBas, prodImg) values(:prodNavn, :prodPris, :prodBas, :prodImg)";
@@ -48,6 +48,7 @@ if(!empty($_POST["data"])) {
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -81,7 +82,14 @@ if(!empty($_POST["data"])) {
 
             <div class="col-12 col-md-10">
                 <div class="form-group m-2">
-                    <label for="FilmImg"> <p class="text-light m-0">Img</p></label>
+                    <label for="prodImg"> <p class="text-light m-0">Img</p></label>
+                    <input class="form-control border-0 rounded-0" type="file" name="prodImg"  id="prodImg" placeholder="Img" value="">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10">
+                <div class="form-group m-2">
+                    <label for="prodImg"> <p class="text-light m-0">Img</p></label>
                     <input class="form-control border-0 rounded-0" type="file" name="prodImg"  id="prodImg" placeholder="Img" value="">
                 </div>
             </div>
