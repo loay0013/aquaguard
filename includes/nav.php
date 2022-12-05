@@ -1,15 +1,40 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-            </div>
+
+        <a class="navbar-brand" href="#">
+            <img class="m-3" src="img/aquaguard_logo.svg" alt="" width="200" height="100">
+        </a>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarTogglerDemo03">
+            <ul class="navbar-nav d-flex me-lg-5 ">
+                <li class="nav-item m-3">
+                    <a class="nav-link active" aria-current="page" href="#">Forside</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="#">Produkter</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link">Om Aquaguard</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link">Kontakt</a>
+                </li>
+            </ul>
         </div>
+
+        <div class="d-flex flex-row">
+
+            <div class="d-flex flex-row m-3">
+                <img src="img/search.svg">
+            </div>
+
+            <div class="d-flex flex-row m-3">
+                <img src="img/bag-heart-fill.svg">
+            </div>
+
+        </div>
+
     </div>
 </nav>
