@@ -21,7 +21,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -39,16 +41,15 @@
     </div>
 
     <div>
-        <h1>
-            Et revolutionerende produkt
+        <h1 class="text-center text-header">
+            Et revolutionerende produkt<br>
             til dig og klimaet
         </h1>
     </div>
 
-
-    <div>
-        <a class="btn d-flex justify-content-center rounded-0">
-            PRODUKTER
+    <div class="btn-header">
+        <a class="btn bg-btn-p d-flex justify-content-center ">
+            <p class="text-light">PRODUKTER</p>
         </a>
     </div>
 
@@ -57,22 +58,22 @@
 
 <section>
 
-    <div class="col-12 col-md-6">
-        
-        <div class="col-12 col-md-6">
-            <img src="img/faucet.png" alt="vandhane">
-        </div>
+    <div class="container-fluid row mt-5">
         
         <div class="col-md-6 col-12">
-            <h2>
+            <img class="m-auto" src="img/faucet.png" alt="vandhane">
+        </div>
+        
+        <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
+            <h2 class="m-4">
                 Aquaguard
             </h2>
-            <p>
+            <p class="m-4">
                 Filtre til vandhaner og brusere udviklet med fokus på flot design.
                 De smarte filtre giver dig kontrol over dit vandforbrug.
             </p>
 
-            <p>
+            <p class="m-4">
                 Med Aquaguard-appen har du overblik over, hvor meget vand din hustand bruger
                 ved hver vandudgang. Du sætter filteret på dine vandhaner og brusere, og så tracker
                 den dit forbrug med sensorer. Auqaguard-filterene er til dig, der vil spare penge, vise
@@ -80,9 +81,9 @@
             </p>
 
 
-            <div>
-                <a class="btn d-flex justify-content-center rounded-0">
-                    PRODUKTER
+            <div class="d-flex m-4">
+                <a class="btn bg-btn-p d-flex justify-content-center">
+                   <p class="text-light">PRODUKTER</p>
                 </a>
             </div>
         </div>
@@ -93,68 +94,69 @@
 </section>
 
 
+
 <section>
+    <div class="row gx-0  mt-6 ms-md-5">
+            <div class="col-12 col-md-6 order-2 ">
+                  <img class="m-auto" src="img/mockup.png" alt="app">
+            </div>
 
-    <div>
-        <img src="img/mockup.png" alt="app">
+        <div class="col-md-6 col-12 order-1 d-flex flex-column justify-content-center ">
+                 <h2 class="m-4">
+                     Aquaguard-appen
+                 </h2>
+                 <p class="m-4">
+                    En helt ny app til dit Aquaguard-filter. De mange features giver dig
+                     et godt overblik over din hustands vandforbrug. Du får det hele samlet
+                    på ét sted med lækkert design.
+                </p>
+                 <p class="m-4">
+                     Aquaguard-appen er udviklet specielt til dig. I appen kan du registrere,
+                    hvor i dit hus du har filtrene siddende på vandhaner og brusere. Du kan se, hvor
+                     meget vand du forbruger i de forskellige rum i dit hus, og hvor mange penge,
+                     du har sparet i dag, på en uge, eller du kan tracke for en længere periode.
+                </p>
+
+             <div class="d-flex flex-md-row flex-column ">
+                 <img class="m-4" src="img/app%20store.svg" alt="app store">
+                 <img class="m-4" src="img/google%20play.svg" alt="google play">
+             </div>
+        </div>
     </div>
-
-   <div>
-        <h2>
-            Aquaguard-appen
-        </h2>
-       <p>
-           En helt ny app til dit Aquaguard-filter. De mange features giver dig
-           et godt overblik over din hustands vandforbrug. Du får det hele samlet
-           på ét sted med lækkert design.
-       </p>
-       <p>
-           Aquaguard-appen er udviklet specielt til dig. I appen kan du registrere,
-           hvor i dit hus du har filtrene siddende på vandhaner og brusere. Du kan se, hvor
-           meget vand du forbruger i de forskellige rum i dit hus, og hvor mange penge,
-           du har sparet i dag, på en uge, eller du kan tracke for en længere periode.
-       </p>
-
-       <div>
-            <img src="img/app%20store.svg" alt="app store">
-            <img src="img/google%20play.svg" alt="google play">
-       </div>
-   </div>
-
 </section>
 
 
 
-<section>
+<section class="d-flex justify-content-center mt-6">
 
-    <div>
+    <div class="bg-box-p w-85 rounded-4">
 
-        <div>
-            <div>
-               <img src="img/returret.svg">
-                <p>14 dages returret</p>
-                <p>Du får altid 14 dages returret.
+        <div class="d-flex flex-column flex-md-row">
+            <div class="m-5">
+               <img class="m-auto" src="img/returret.svg">
+                <p class="text-center mt-4">14 dages returret</p>
+                <p class="text-center mt-3">Du får altid 14 dages returret.
                     Det synes vi er god service.</p>
             </div>
 
-            <div>
-                <img src="img/betaling.svg">
-                <p>Fleksibel betaling</p>
-                <p>Du vælger mellem en række
+            <div class="m-5">
+                <img class="m-auto" src="img/betaling.svg">
+                <p  class="text-center mt-4">Fleksibel betaling</p>
+                <p  class="text-center mt-3">Du vælger mellem en række
                     forskellige betalingsmuligheder.</p>
             </div>
 
-            <div>
-                <img src="img/levering.svg">
-                <p>Gratis levering</p>
-                <p>Du får gratis levering,
+            <div class="m-5">
+                <img class="m-auto" src="img/levering.svg">
+                <p  class="text-center mt-4">Gratis levering</p>
+                <p  class="text-center mt-3">Du får gratis levering,
                     når du køber for 500 DKK.</p>
             </div>
 
-            <div>
-                <img src="img/support.svg">
-                <p>Online support</p>
-                <p>Vi tilbyder gratis online support,
+            <div class="m-5">
+                <img class="m-auto" src="img/support.svg">
+                <p  class="text-center mt-4">Online support</p>
+                <p  class="text-center mt-3">Vi tilbyder gratis online support,
                     hvor du kan stille spørgsmål.</p>
             </div>
 
@@ -165,35 +167,34 @@
 </section>
 
 <section>
-    <div>
-        <div>
-            <img src="img/jacek-dylag-Vve7XkiUq_Y-unsplash.png">
+    <div class="row gx-0 mt-6 mb-4 ">
+        <div class="col-12 col-md-6 ">
+            <img  src="img/jacek-dylag-Vve7XkiUq_Y-unsplash.png">
         </div>
-        <div>
-            <h3>
+        <div class="col-md-6 col-12 d-flex flex-column bg-text-p pt-5 ">
+            <h4 class="text-center mt-md-5 text-light m-md-5">
             Abonner på Aquaguards nyhedsbrev
             og få nyheder og tips.
-            </h3>
-
-            <input class="label-kontakt" type="email" placeholder="Din email">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
-            </button>
-
+            </h4>
+            <div class="d-flex flex-md-row flex-column justify-content-center mt-5">
+                <input  class="label-kontakt m-md-4 m-3 rounded-2 p-2 border-0" type="email" placeholder="Din email">
+                        <button type="button" class="btn bg-btn-p m-3 m-md-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              <P>Tilmeld</P>
+                        </button>
+            </div>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Nyhedsbrev</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            Du er nu tilmeldt nyhedsbrevet
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Luk</button>
                         </div>
                     </div>
                 </div>

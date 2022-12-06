@@ -14,7 +14,11 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff
+        "btn-p": #28ABE2,
+        "text-p":#343E52,
+        "text-s":#5881AA,
+        "box-p":#195DA3
+
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
