@@ -17,7 +17,8 @@ $custom-colors: (
         "btn-p": #28ABE2,
         "text-p":#343E52,
         "text-s":#5881AA,
-        "box-p":#195DA3
+        "box-p":#195DA3,
+        "kurv":#F5F6F7
 
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
