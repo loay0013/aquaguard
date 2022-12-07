@@ -40,7 +40,7 @@ img {
 }
 
 .background-footer {
-	height: 875px;
+	height: auto;
 	width: 100%;
 	background-color: #1a1a1a;
 }
@@ -56,6 +56,25 @@ img {
 	height: 1px;
 	background-color: white;
 }
+.follow-text {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.footer-group-item {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	list-style: none;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.blue-section {
+	height: auto;
+	width: 100%;
+	background-color: #195DA3;
+}
+
 #myVideo {
 	filter: brightness(30%);
 	height: 100%;
