@@ -28,7 +28,7 @@
             </ul>
             <div class="d-flex flex-row justify-content-center">
                  <div class="d-flex flex-row m-3 d-lg-none">
-                     <img src="img/bag-heart-fill.svg">
+                     <img src="img/shoppingcart.svg" height="25" width="25">
                 </div>
                  <div class="d-flex flex-row m-3 d-lg-none">
                      <img src="img/search.svg">
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="d-flex flex-row m-3">
-                    <img src="img/bag-heart-fill.svg">
+                    <img src="img/shoppingcart.svg" width="25"height="25">
                 </div>
          </div>
 </nav>

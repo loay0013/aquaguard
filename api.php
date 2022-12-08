@@ -32,9 +32,16 @@ $sql ="AND prodNavn =prodNavn";
 $bind[":prodNavn"]=$data["prodNavn"];
 
 }
-$coupon = $db->sql($sql, $bind);
+$produkter = $db->sql($sql, $bind);
 header("HTTP/1.1 200 ok");
-echo json_encode($coupon);
+echo json_encode($produkter);
 
+}else {
+    header('content-Type: application/json; charset=utf-8');
+    header("HTTP/1.1 401 Unauthorized");
+    $error["errorMassage"] = "Din kodeord var forket";
+    echo json_encode($error);
 }
+
+?>
 
