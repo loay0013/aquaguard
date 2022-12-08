@@ -35,7 +35,7 @@
 <header class=" h-100 position-relative overflow">
     <div class="video">
 
-        <video playsinline autoplay muted loop id="myVideo" class="d-block position-absolute">
+			<video playsinline autoplay muted loop id="myVideo" class="d-block position-absolute">
             <source src="img/watertap.mp4">
         </video>
     </div>
@@ -52,14 +52,11 @@
             <p class="text-light">PRODUKTER</p>
         </a>
     </div>
-
 </header>
 
 
 <section>
-
     <div class="container-fluid row mt-5">
-        
         <div class="col-md-6 col-12">
             <img class="m-auto" src="img/faucet.png" alt="vandhane">
         </div>
@@ -87,10 +84,7 @@
                 </a>
             </div>
         </div>
-        
     </div>
-
-
 </section>
 
 
@@ -202,8 +196,6 @@
 
         </div>
     </div>
-
-
 </section>
 
 

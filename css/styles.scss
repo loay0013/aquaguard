@@ -108,6 +108,17 @@ img {
 	height: 650px;
 }
 
+.image-1 {
+	object-fit: cover;
+}
+
+.hero-background {
+	width: 100%;
+	height: auto;
+	background-color: #101214;
+	object-fit: cover;
+}
+
 @media screen and (max-width: 434px){
 	.w-85{
 		width: 95%;
