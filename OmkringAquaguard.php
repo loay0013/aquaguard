@@ -10,9 +10,9 @@
 	<meta charset="utf-8">
 
 	<!-- Titel som ses oppe i browserens tab mv. -->
-	<title>Sigende titel</title>
+	<title>Omkring Aquaguard</title>
 
-	<!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+	<!-- Metatags der fortæller at søgemaskiner er uvelkomne, hvem der udgiver siden og copyright information -->
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
@@ -38,11 +38,11 @@
 <section class="mx-3 mx-md-5">
 	<div class="row mx-md-5">
 		<div class="col-12 mt-5">
-			<div class="text-center mx-md-5 text-md-start py-5 pt-4">
-				<h1 class="px-1">Om Aquaguard</h1>
-				<h2 class="px-1">Kontrol over dit vandbrug</h2>
+			<div class="text-center text-md-start py-5 pt-4">
+				<h1 class="py-1">Om Aquaguard</h1>
+				<h2 class="py-1">Kontrol over dit vandbrug</h2>
 			</div>
-			<p class="fs-6 col-12 col-md-8 mx-md-5">Når du køber filtre fra Aquaguard køber du lækkert design. I vores app kan du følge med i dit vandforbrug, så du kan spare penge på dine vandregninger. På den måde kan du bruge dine penge på det du helst vil. Du får en gadgets, du sparer penge, og du tager miljøhensyn.</p>
+			<p class="fs-6 col-12 col-md-10">Når du køber filtre fra Aquaguard køber du lækkert design. I vores app kan du følge med i dit vandforbrug, så du kan spare penge på dine vandregninger. På den måde kan du bruge dine penge på det du helst vil. Du får en gadgets, du sparer penge, og du tager miljøhensyn.</p>
 		</div>
 	</div>
 </section>
@@ -50,15 +50,15 @@
 <section class="mx-3 mx-md-5">
 	<div class="row mx-md-5">
 		<div class="col-12 pb-3">
-			<div class="text-center mx-md-5 text-md-start my-5">
-				<h2 class="px-1">Kontrol over dit vandbrug</h2>
+			<div class="text-center text-md-start my-5">
+				<h2 class="py-1">Kontrol over dit vandbrug</h2>
 			</div>
-			<p class="fs-6 col-12 col-md-8 mx-md-5">Aquaguard er en dansk virksomhed, som er stiftet af 5 innovative iværksættere med multimediedesign baggrund. Idéen opstod, fordi både behovet for at spare penge og passe på miljøet er stort i en tid som vores. Med lækkert design i fokus fik vi kontakt til de leverandører, som vi har en dag, og sammen begyndte vi at udvikle de filtre, som kom til at hedde Aquaguard. Vores mission er, at det gøre let og interessant at spare penge og passe på vores miljø.</p>
+			<p class="fs-6 col-12 col-md-10">Aquaguard er en dansk virksomhed, som er stiftet af 5 innovative iværksættere med multimediedesign baggrund. Idéen opstod, fordi både behovet for at spare penge og passe på miljøet er stort i en tid som vores. Med lækkert design i fokus fik vi kontakt til de leverandører, som vi har en dag, og sammen begyndte vi at udvikle de filtre, som kom til at hedde Aquaguard. Vores mission er, at det gøre let og interessant at spare penge og passe på vores miljø.</p>
 		</div>
 	</div>
 </section>
 
-<section class="mx-4">
+<section class="m-md-5">
 		<div class="d-flex justify-content-center">
 			<div class="d-flex flex-column flex-md-row py-4 text-center w-88 px-md-3">
 				<div class="py-3 col-12 col-md-4 ">
@@ -116,16 +116,6 @@
 			</div>
 		</div>
 </section>
-
-
-
-
-
-
-
-
-
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <?php include "includes/footer.php"?>
