@@ -60,21 +60,21 @@ if(!empty($_POST["data"])) {
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body>
+<body class="bg-kurv">
 
     <form method="post" action="insert.php" enctype="multipart/form-data">
 
         <div class="row justify-content-center m-0">
             <div class="col-12 col-md-5">
                 <div class="form-group m-2">
-                    <label for="FilmNavn"><p class="text-light m-0">produkt Navn</p></label>
+                    <label for="produkt Navn"><p class="m-0">produkt Navn</p></label>
                     <input class="form-control border-0 rounded-0" type="text" name="data[prodNavn]"  id="prodNavn" placeholder="prodNavn" value="">
                 </div>
             </div>
 
             <div class="col-12 col-md-5">
                 <div class="form-group m-2">
-                    <label for="FilmNavn"><p class="text-light m-0">produkt Pris</p></label>
+                    <label for="produkt Pris"><p class="m-0">produkt Pris</p></label>
                     <input class="form-control border-0 rounded-0" type="number" name="data[prodPris]"  id="prodPris" placeholder="prodPris" value="">
                 </div>
             </div>
@@ -82,22 +82,17 @@ if(!empty($_POST["data"])) {
 
             <div class="col-12 col-md-10">
                 <div class="form-group m-2">
-                    <label for="prodImg"> <p class="text-light m-0">Img</p></label>
+                    <label for="prodImg"> <p class=" m-0">Img</p></label>
                     <input class="form-control border-0 rounded-0" type="file" name="prodImg"  id="prodImg" placeholder="Img" value="">
                 </div>
             </div>
 
-            <div class="col-12 col-md-10">
-                <div class="form-group m-2">
-                    <label for="prodImg"> <p class="text-light m-0">Img</p></label>
-                    <input class="form-control border-0 rounded-0" type="file" name="prodImg"  id="prodImg" placeholder="Img" value="">
-                </div>
-            </div>
+
 
 
             <div class="col-12">
                 <div class="form-group m-2">
-                    <label for="FilmBas"> <p class="text-light m-0"> produkt resume</p></label>
+                    <label for="produkt resume"> <p class="m-0"> produkt resume</p></label>
                     <textarea class="form-control " type="text" name="data[prodBas]"  id="prodBas" ></textarea>
                 </div>
             </div>
