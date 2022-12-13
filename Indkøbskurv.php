@@ -29,16 +29,20 @@
 <body>
 <?php include "includes/nav.php";?>
 <section class="d-flex justify-content-center rounded-4">
+    <!--desktop v-->
 <div class="row  w-97 mb-5 rounded-4">
     <div class="bg-kurv col-12 col-md-8 rounded-start d-lg-block d-none ">
         <div class="d-flex flex-column">
+            <!--text-->
             <div class="d-flex flex-row justify-content-md-between  justify-content-center gx-0">
                 <h3 class="p-3 mt-3">Indkøbskurv</h3>
                 <p class="d-md-flex align-items-center p-3 mt-3">varer</p>
             </div>
+            <!--line-->
             <div class="d-flex justify-content-center mt-5 mb-5">
             <div class="lineind"></div>
             </div>
+            <!--delete js-->
             <div id="delete"  class="d-flex flex-row justify-content-around ">
 
                 <div>
@@ -49,7 +53,7 @@
                     <p>Aquaguard</p>
                     <p>Vandsensor</p>
                 </div>
-
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                     <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v")'>-</button>
                     <input id='v' name='v' type="number"  value="1" min="0" max="10">
@@ -59,12 +63,13 @@
                 <div class=" d-flex align-items-center">
                     <p>149,00 DKK</p>
                 </div>
-
+                <!--delete btn js-->
                 <div class="align-items-center d-flex  ">
                     <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
 
             </div>
+            <!--line-->
             <div  class="d-flex justify-content-center mt-5 mb-5">
                 <div  class="lineind"></div>
             </div>
@@ -72,8 +77,8 @@
 
 
 
-
-            <div id="delete2" class="d-flex flex-row justify-content-around">
+            <!--delete div-->
+            <div id="delete" class="d-flex flex-row justify-content-around">
                 <div>
                     <img src="img/vandhane.png">
                 </div>
@@ -81,7 +86,7 @@
                     <p>Aquaguard</p>
                     <p>Vandsensor</p>
                 </div>
-
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                     <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v2")'>-</button>
                     <input id='v2' name='v' type="number"  value="1" min="0" max="10">
@@ -91,16 +96,17 @@
                 <div class="d-flex  align-items-center">
                     <p>149,00 DKK</p>
                 </div>
-
-                <div class="align-items-center d-flex">
-                    <p>x</p>
+                <!--delete btn js-->
+                <div class="align-items-center d-flex  ">
+                    <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
+
             </div>
             <div class="d-flex justify-content-center mt-5 mb-5">
                 <div class="lineind"></div>
             </div>
-
-            <div class="d-flex flex-row mb-5 justify-content-around ">
+            <!--delete div-->
+            <div id="delete" class="d-flex flex-row mb-5 justify-content-around ">
                 <div>
                     <img src="img/vandhane.png">
                 </div>
@@ -108,7 +114,7 @@
                     <p>Aquaguard</p>
                     <p>Vandsensor</p>
                 </div>
-
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                         <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v3")'>-</button>
                         <input id='v3' name='v' type="number"  value="1" min="0" max="10">
@@ -118,7 +124,7 @@
                 <div class="align-items-center d-flex">
                     <p>149,00 DKK</p>
                 </div>
-
+                <!--delete btn js-->
                 <div class="align-items-center d-flex">
                     <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
@@ -136,8 +142,9 @@
             <div class="d-flex justify-content-center mt-5 mb-5">
                 <div class="lineind"></div>
             </div>
-            <div  class="d-flex flex-column justify-content-around">
-
+            <!--delete div-->
+            <div id="delete"  class="d-flex flex-column justify-content-around">
+                <!--delete btn js-->
                 <div class="align-items-center d-flex justify-content-end">
                     <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
@@ -151,6 +158,7 @@
                         <p>Vandsensor</p>
                     </div>
                 </div>
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                     <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v4")'>-</button>
                     <input id='v4' name='v' type="number"  value="1" min="0" max="10">
@@ -160,15 +168,15 @@
                 <div class="d-flex align-items-center justify-content-center mt-3">
                     <p>149,00 DKK</p>
                 </div>
-
             </div>
 
             <div class="d-flex justify-content-center mt-5 mb-5">
                 <div class="lineind"></div>
 
             </div>
-            <div class="d-flex flex-column justify-content-around">
-
+            <!--delete div-->
+            <div id="delete" class="d-flex flex-column justify-content-around">
+                <!--delete btn js-->
                 <div class="align-items-center d-flex justify-content-end">
                     <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
@@ -182,6 +190,7 @@
                         <p>Vandsensor</p>
                     </div>
                 </div>
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                     <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v5")'>-</button>
                     <input id='v5' name='v' type="number"  value="1" min="0" max="10">
@@ -197,9 +206,9 @@
             <div class="d-flex justify-content-center mt-5 mb-5">
                 <div class="lineind"></div>
             </div>
-
-            <div class="d-flex flex-column justify-content-around">
-
+            <!--delete div-->
+            <div id="delete" class="d-flex flex-column justify-content-around">
+                <!--delete btn js-->
                 <div class="align-items-center d-flex justify-content-end">
                     <button class="border-0 bg-kurv" onclick="myFunction()">x</button>
                 </div>
@@ -213,6 +222,7 @@
                         <p>Vandsensor</p>
                     </div>
                 </div>
+                <!--plus og minus js-->
                 <div class="d-flex flex-row align-items-center justify-content-center">
                     <button size="1px" class="m-3 border-0 bg-kurv" value="-"  onclick='process(-1, "v6")'>-</button>
                     <input id='v6' name='v' type="number"  value="1" min="0" max="10">
@@ -295,6 +305,7 @@
 
 
 <?php include "includes/footer.php";?>
+<script src="js/active.js"></script>
 <script src="js/delete.js"></script>
 <script src="js/plusminusbtn.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

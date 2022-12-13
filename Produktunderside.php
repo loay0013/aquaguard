@@ -40,18 +40,19 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-<div class="d-flex justify-content-center">
+<?php include "includes/nav.php"?>
+<div class="d-flex justify-content-center flex-column">
 
-    <div class="w-85 bg-kurv">
+    <div class="bg-kurv">
 
         <div class="row gx-0 d-flex flex-column flex-md-row">
-            <div class="col-md-6 col-12">
-            <img class="obj" src="uploads/<?php echo $produkter->prodImg;?>"
+            <div class="d-flex flex-column flex-md-row">
+            <img class="obj col-12 col-md-6" src="uploads/<?php echo $produkter->prodImg;?>"
             </div>
 
-            <div class="col-12 col-md-6">
-               <div class="d-flex flex-column">
-                   <h1>
+            <div class="col-12 col-md-6 d-flex align-items-center ">
+               <div class="mx-5">
+                   <h1 class="mt-5">
                        <?php
                        echo $produkter->prodNavn
                        ?>
@@ -66,9 +67,10 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
                    <div>
                        <p>Størrelse</p>
                        <select class="form-select" aria-label="Default select example">
-                           <option selected></option>
-                           <option value="1"></option>
-                           <option value="2"></option>
+                           <option selected>17-17.5 mm</option>
+                           <option value="1">19.5-20 mm</option>
+                           <option value="2">21.5-22 mm</option>
+                           <option value="2">23.5-24 mm</option>
                        </select>
                    </div>
 
@@ -83,14 +85,14 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
                    </div>
 
 
-                   <div>
-                       <a class="btn bg-btn-p d-flex text-light justify-content-center" href="#">Tilføj til kurv</a>
+                   <div class="d-md-flex">
+                       <a class="btn bg-btn-p d-flex text-light justify-content-center mt-5" href="Indkøbskurv.php">Tilføj til kurv</a>
                    </div>
 
                    <div class="d-flex flex-row justify-content-center mt-5">
                        <a class="d-flex flex-row text-decoration-none" href="shop.php">
-                           <img  class="mb-5" src="img/icon%20Tilbage.svg">
-                           <p class="text-light mb-5">Tilbage til produkter</p>
+                           <img  class="mb-5 text-dark" src="img/Tilbag%20b.svg">
+                           <p class="text-dark mb-5">Tilbage til produkter</p>
                        </a>
                    </div>
 
@@ -113,5 +115,12 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
 <?php
 }
 ?>
+
+
+<?php include "includes/footer.php"?>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/active.js"></script>
+
+
 </body>
 </html>

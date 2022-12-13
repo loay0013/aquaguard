@@ -17,11 +17,11 @@ export default class produkters{
         const data = await this.getData();
 
         const row =document.createElement('div');
-        row.classList.add('row','g-4','pt-5');
+        row.classList.add('row','g-4');
 
         for(const  items of data){
             const col = document.createElement('div');
-            col.classList.add('col-12', 'rounded-4');
+            col.classList.add('col-12', 'col-md-6', 'rounded-4','mb-5');
 
             col.innerHTML= `
            
@@ -30,15 +30,15 @@ export default class produkters{
             <a  href="Produktunderside.php?prodId=${items.prodId}" class="text-decoration-none text-dark">
                <div>
                     <img src ="uploads/${items.prodImg}" class="card-img-top img-fluid obj1" alt="">
-                    <h2 class="p-2 text-header">${items.prodNavn}</h2>                                           
                </div>
-                 
-                                  
-                     
-                 </a>
-                     
+                       
+          
+                <div class="bg-box-p rounded-bottom">
+                     <h2 class="p-2 text-light text-center">${items.prodNavn}</h2> 
+                     <p class="text-light text-center">${items.prodPris}kr.</p>
+                </div>
             </div>
-           
+             </a>
                                        
           `;
             row.appendChild(col);

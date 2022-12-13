@@ -15,7 +15,7 @@ if(!empty($_POST["data"])) {
 
        <p style='color: white; text-align: center; margin-top: 20%; font-family: Raleway, sans-serif;'>Produkt er nu indsat I vores system<p/>
        <div style='display: flex; justify-content: center;'>
-       <a style='text-decoration: none' href='index.html'>
+       <a style='text-decoration: none' href='shop.php'>
        <button style='font-size: 16px; font-weight: 500; color: #1e2125 cursor: pointer; display:flex; border: none; border-radius: 20px; font-family: Raleway, sans-serif; justify-content:center; padding: 10px; height: 60px; width: 200px; background-color: #F2B705FF; align-items: center'>Gå til oversigt</button></a>
        </div>
        ";

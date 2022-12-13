@@ -1,6 +1,8 @@
 <footer>
     <div class="background-footer col-12 d-flex justify-content-center align-items-center py-5 p-0">
+        <a href="index.php">
         <img src="img/aquaguard_logo_white.svg" alt="logo" width="300px" height="250px">
+        </a>
     </div>
 	<div class="background-footer d-flex flex-column flex-md-row align-items-center">
 		<div class="col-12 col-md-4">
@@ -26,10 +28,10 @@
 		<div class="col-12 col-md-4">
 			<div class="text-center">
 				<ul class="d-flex justify-content-center flex-column footer-group text-decoration-none py-3 gap-3">
-					<a class="footer-group-item text-white" href="#">Forside</a>
-					<a class="footer-group-item text-white" href="#">Produkter</a>
-					<a class="footer-group-item text-white" href="#">Om Aquaguard</a>
-					<a class="footer-group-item text-white" href="#">Kontakt</a>
+					<a class="footer-group-item text-white" href="index.php">Forside</a>
+					<a class="footer-group-item text-white" href="shop.php">Produkter</a>
+					<a class="footer-group-item text-white" href="OmkringAquaguard.php">Om Aquaguard</a>
+					<a class="footer-group-item text-white" href="kontakt%20os.php">Kontakt</a>
 				</ul>
 			</div>
 			<div class="col-12 d-flex justify-content-center py-3">

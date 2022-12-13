@@ -10,13 +10,13 @@
 	<meta charset="utf-8">
 
 	<!-- Titel som ses oppe i browserens tab mv. -->
-	<title>Omkring Aquaguard</title>
+	<title>Omkring Aquaguard | Kontrol over dit vandbrug </title>
 
 	<!-- Metatags der fortæller at søgemaskiner er uvelkomne, hvem der udgiver siden og copyright information -->
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-
+    <meta name="description" content="">
 	<!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -117,7 +117,17 @@
 		</div>
 </section>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
 <?php include "includes/footer.php"?>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/active.js"></script>
 </body>
 </html>
