@@ -29,14 +29,15 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+<!--navbar-->
 <?php include "includes/nav.php"?>
-
+<!--img-->
 <section class="">
 	<div class="hero-background">
 		<img class="image-1" src="img/omoswatertap.png" alt="water-tap">
 	</div>
 </section>
-
+<!--text-->
 <section class="mx-3 mx-md-5">
 	<div class="row mx-md-5">
 		<div class="col-12 mt-5">
@@ -48,7 +49,7 @@
 		</div>
 	</div>
 </section>
-
+<!--text2-->
 <section class="mx-3 mx-md-5">
 	<div class="row mx-md-5">
 		<div class="col-12 pb-3">
@@ -59,7 +60,7 @@
 		</div>
 	</div>
 </section>
-
+<!--section med icon og text-->
 <section class="m-md-5">
 		<div class="d-flex justify-content-center">
 			<div class="d-flex flex-column flex-md-row py-4 text-center w-88 px-md-3">
@@ -127,9 +128,11 @@
 
 
 
-
+<!--footer-->
 <?php include "includes/footer.php"?>
+<!--bootstrap js-->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!--navbar active js-->
 <script src="js/active.js"></script>
 </body>
 </html>
