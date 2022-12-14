@@ -1,3 +1,6 @@
+
+
+<!--select produkter fra sql-->
 <?php
 require "settings/init.php";
 $bind =[":prodId"=> $_GET["prodId"]];
@@ -23,13 +26,13 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
     ?>
 
     <title><?php
-        echo $produkter->prodNavn?></title>
+        echo $produkter->prodNavn?> | køb filtre fra Aquaguard</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-
+    <meta name="description" content="Aquaguard filter til din vandhane i køkkenet, bryggerset eller på badeværelset.">
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -40,16 +43,17 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+<!--navbar-->
 <?php include "includes/nav.php"?>
 <div class="d-flex justify-content-center flex-column">
 
     <div class="bg-kurv">
-
         <div class="row gx-0 d-flex flex-column flex-md-row">
+            <!--img-->
             <div class="d-flex flex-column flex-md-row">
             <img class="obj col-12 col-md-6" src="uploads/<?php echo $produkter->prodImg;?>"
             </div>
-
+            <!--produktNavn og produktbeskrivelse-->
             <div class="col-12 col-md-6 d-flex align-items-center ">
                <div class="mx-5">
                    <h1 class="mt-5">
@@ -63,7 +67,7 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
                        echo $produkter->prodBas
                        ?>
                    </p>
-
+                    <!--select størrelse-->
                    <div>
                        <p>Størrelse</p>
                        <select class="form-select" aria-label="Default select example">
@@ -74,7 +78,7 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
                        </select>
                    </div>
 
-
+                   <!--select farve-->
                    <div>
                        <p>Farve</p>
                        <select class="form-select" aria-label="Default select example">
@@ -84,11 +88,11 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
                        </select>
                    </div>
 
-
+                   <!--btn tilføj til kurv-->
                    <div class="d-md-flex">
                        <a class="btn bg-btn-p d-flex text-light justify-content-center mt-5" href="Indkøbskurv.php">Tilføj til kurv</a>
                    </div>
-
+                    <!--tilbage til produkter-->
                    <div class="d-flex flex-row justify-content-center mt-5">
                        <a class="d-flex flex-row text-decoration-none" href="shop.php">
                            <img  class="mb-5 text-dark" src="img/Tilbag%20b.svg">
@@ -116,9 +120,10 @@ $produkter = $db->sql("SELECT * FROM produkter WHERE prodId =:prodId;", $bind);
 }
 ?>
 
-
+<!--footer-->
 <?php include "includes/footer.php"?>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!--navbar active-->
 <script src="js/active.js"></script>
 
 

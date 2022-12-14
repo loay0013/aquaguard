@@ -25,6 +25,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b7f7f27b49.js" crossorigin="anonymous"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -43,7 +45,7 @@
     </div>
 
     <div>
-        <h1 class="text-center text-header col-12">Filtrene med app giver
+        <h1 class="text-center text-header col-12 px-3">Filtrene med app giver
             kontrol over dit vandforbrug
         </h1>
     </div>
@@ -53,10 +55,15 @@
             <p class="text-light">PRODUKTER</p>
         </a>
     </div>
+
+    <div class="icon position-absolute bottom-0 text-center w-100 text-light">
+        <a href="#Forside" class="text-light"><i class="fa-solid fa-chevron-down fa-2x p-3"></i>
+        </a>
+    </div>
 </header>
 
 <!--text section og btn og img-->
-<section>
+<section id="Forside">
     <div class="container-fluid row mt-5">
         <div class="col-md-6 col-12">
             <img class="m-auto" src="img/faucet.png" alt="vandhane">
@@ -176,13 +183,14 @@
             Abonner på Aquaguards nyhedsbrev
             og få nyheder og tips.
             </h5>
-            <div class="d-flex flex-md-row flex-column justify-content-center mt-5">
+            <div class="d-flex flex-lg-row flex-column justify-content-center mt-5">
                 <input  class="label-kontakt m-md-4 m-3 rounded-2 p-2 border-0 px-5" type="email" placeholder="Din email">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn bg-btn-p m-3 m-md-4 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
                               <P class="text-light">Tilmeld</P>
-                        </button>
+                </button>
             </div>
+            <div class="g-recaptcha brochure__form__captcha d-flex justify-content-center m-3" data-sitekey="6LdjkHkjAAAAAEogtcqNH2i8TTOakhXd6UU12a4k"></div>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -213,6 +221,7 @@
 <?php include "includes/footer.php"; ?>
 <!--bootstrap js script-->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!--navbar active-->
 <script src="js/active.js"></script>
 
 
