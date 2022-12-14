@@ -36,9 +36,9 @@
 <!--nav-->
 <?php include "includes/nav.php"; ?>
 <!--header med video og text og btn-->
-<header class=" h-100 position-relative overflow">
+<header class=" h-100 position-relative ">
+    <!--video-->
     <div class="video">
-
 			<video playsinline autoplay muted loop id="myVideo" class="d-block position-absolute">
             <source src="img/Forside%20VID.mp4">
         </video>
@@ -49,7 +49,7 @@
             kontrol over dit vandforbrug
         </h1>
     </div>
-
+    <!--btn-->
     <div class="btn-header">
         <a href="shop.php" class="btn bg-btn-p d-flex justify-content-center ">
             <p class="text-light">PRODUKTER</p>

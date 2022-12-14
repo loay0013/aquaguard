@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-xl container-fluid p-0   ">
+<nav class="navbar navbar-expand-xl container-fluid p-0 ">
     <div class="container-fluid d-flex  align-items-center p-0">
         <!--logo-->
-        <a class="navbar-brand border-0 bg-white col-6 col-md-2" href="index.php">
+        <a class="navbar-brand border-0 bg-transparent col-6 col-md-2" href="index.php">
             <img class="m-3" src="img/aquaguard_logo.svg" alt="" width="200" height="100">
         </a>
 

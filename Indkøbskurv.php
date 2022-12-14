@@ -256,7 +256,7 @@
                 <p class="text-light m-3">3 Items</p>
                 <p class="text-light m-3">447,00 DKK</p>
             </div>
-
+            <!--select levering-->
             <div>
             <select class="form-select" aria-label="Default select example">
                 <option selected>Levering</option>
@@ -265,7 +265,7 @@
             </select>
             </div>
 
-
+            <!--rabat kode input-->
             <div class="d-flex flex-column">
                <p class="mt-3 mb-3 text-light">Rabatkode</p>
                 <input class="rounded-2 border-0 pt-2 pb-2" type="text" placeholder="Indtast rabatkode her">
@@ -285,7 +285,7 @@
             <div>
                 <a class="btn bg-btn-p d-flex text-light justify-content-center" href="#">Gå til checkout</a>
             </div>
-
+            <!--tilbage til shop-->
             <div class="d-flex flex-row justify-content-center mt-5">
                 <a class="d-flex flex-row text-decoration-none" href="shop.php">
                     <img  class="mb-5" src="img/icon%20Tilbage.svg">
@@ -303,11 +303,15 @@
 
 
 
-
+<!--footer-->
 <?php include "includes/footer.php";?>
+<!-- navbar active-->
 <script src="js/active.js"></script>
+<!--delete div js-->
 <script src="js/delete.js"></script>
+<!--plus og minus btn-->
 <script src="js/plusminusbtn.js"></script>
+<!--bootstrap js-->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
