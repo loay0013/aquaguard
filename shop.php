@@ -13,7 +13,7 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel='icon' href='img/aquaguard_logo.svg' type='image/x-icon' sizes="40x40" />
+    <link rel='icon' href='img/aquaguard_logo_skjold.svg' type='image/x-icon' sizes="40x40" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
